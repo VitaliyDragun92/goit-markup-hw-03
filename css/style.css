@@ -1,0 +1,213 @@
+:root {
+  --primary: #212121;
+  --secondary: #757575;
+  --accent: #2196f3;
+  --white: #ffffff;
+  --button-bg: #f5f4fa;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary);
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+/*img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}*/
+
+address {
+  font-style: normal;
+}
+
+/* header */
+
+.logo-up {
+  font-family: "Raleway", sans-serif;
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  text-decoration: none;
+}
+
+.logo-shade {
+  color: var(--accent);
+}
+
+.link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link {
+  color: var(--primary);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent);
+}
+
+.auth-nav .link {
+  color: var(--secondary);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent);
+}
+
+/* ШАПКА */
+
+.section {
+  background-color: #2f303a;
+}
+
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background-color: var(--accent);
+}
+
+/* ОСОБЕННОСТИ */
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  color: var(--primary);
+}
+
+.title-work {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+/*  ЧЕМ МЫ ЗАНИМАЕМСЯ */
+
+.team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  color: var(--primary);
+}
+
+.list-team {
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+}
+
+/* PORTFOLIO */
+
+.button-list {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  background: var(--button-bg);
+}
+
+.button-list:hover,
+.button-list:focus {
+  color: var(--white);
+  background-color: var(--accent);
+}
+
+.title {
+  font-size: 18px;
+  line-height: 1.14;
+  color: var(--primary);
+}
+
+.portfolio-link {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+/* --FOOTER-- */
+
+footer {
+  background-color: #2f303a;
+}
+
+.logo-down {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.list {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+}
+
+.link-address {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.link-contackt {
+  color: var(--secondary);
+  text-decoration: none;
+}

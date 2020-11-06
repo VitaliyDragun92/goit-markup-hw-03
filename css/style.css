@@ -257,8 +257,9 @@ address {
 
 .filters-list {
   display: flex;
-  justify-content: center;
-  margin-bottom: 53px;
+justify-content: center;
+margin-top: 94px;
+margin-bottom: 53px;
 }
 
 .button-list {
@@ -295,14 +296,14 @@ address {
   display: flex;
   margin-right: 30px;
   margin-bottom: 30px;
-  flex-basis: calc(100% / 3 - 30px);
+  width: calc(100% / 3 - 30px);
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-top: -30px;
+  margin-bottom: 94px;
 }
 
 .portfolio-link {
